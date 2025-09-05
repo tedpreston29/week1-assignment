@@ -10,6 +10,6 @@ Nav bar and background image implemented successfully. I had trouble with this a
 now onto my second image.
 
 03:55pm
-Finally managed to implement all three images. I did have trouble with my last image (VS code said it was untracked). I believe the issue was because the orignal path of the image couldnt be found by ubuntu.
+Finally managed to implement all three images. I did have trouble with my last image (VS code said it was untracked). I believe the issue was because the orignal path of the image couldnt be found by ubuntu. also images are too big and are being cropped. Would be good to learn how to find images that dont crop or what resolution they should be
 
 I am going to add content now to each of the pages with boxes for text to be written.
