@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   color: white;
+  font-family: monospace;
 }
 
 .tech {
@@ -13,18 +14,16 @@
 }
 
 .watch {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
   background-image: url("./images/tech-watch.png");
   margin: 0px;
 }
 
-.nav {
-  font-size: 25px;
+nav {
   display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: flex-start;
-  justify-content: flex-end;
-  text-transform: uppercase;
-  gap: 2rem;
-  padding: 1rem;
+  align-items: flex-end;
+  gap: 1rem;
+  padding: 1rem 2rem;
 }
