@@ -13,3 +13,6 @@ now onto my second image.
 Finally managed to implement all three images. I did have trouble with my last image (VS code said it was untracked). I believe the issue was because the orignal path of the image couldnt be found by ubuntu. also images are too big and are being cropped. Would be good to learn how to find images that dont crop or what resolution they should be
 
 I am going to add content now to each of the pages with boxes for text to be written.
+
+05:30pm
+Will continue to create the next content boxes. also look at how to create back to top button and look at user stories to see what else could be added.
