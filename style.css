@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  color: white;
+}
+
+.tech {
+  height: 100vh;
+  background-size: cover;
+  position: relative;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  background-position: center;
+}
+
+.watch {
+  background-image: url("./images/tech-watch.png");
+  margin: 0px;
+}
+
+.nav {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  justify-content: flex-end;
+  text-transform: uppercase;
+  gap: 2rem;
+  padding: 1rem;
+}
