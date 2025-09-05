@@ -1,29 +1,50 @@
 * {
-  margin: 0px;
-  color: white;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
   font-family: monospace;
+  color: white;
 }
 
-.tech {
-  height: 100vh;
-  background-size: cover;
-  position: relative;
-  background-repeat: no-repeat;
-  object-fit: cover;
-  background-position: center;
-}
-
-.watch {
+header {
+  position: fixed;
+  color: white;
+  padding: 2.5rem 3rem;
+  background-color: black;
+  width: 100%;
+  z-index: 1;
   display: flex;
-  align-items: flex-start;
+  flex-wrap: wrap;
   justify-content: space-between;
-  background-image: url("./images/tech-watch.png");
-  margin: 0px;
+  gap: 2rem;
+  align-items: baseline;
+  font-size: 30px;
 }
 
-nav {
-  display: flex;
-  align-items: flex-end;
-  gap: 1rem;
-  padding: 1rem 2rem;
+.watch-background {
+  background-image: url("./images/tech-watch.png");
+  position: relative;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  border-bottom: 2px solid #00ffff;
+}
+
+.car-background {
+  background-image: url("./images/tech-car.jpeg");
+  position: relative;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  border-bottom: 2px solid #00ffff;
+}
+
+.human-background {
+  background-image: url("./images/tech-human.png");
+  position: relative;
+  background-size: cover;
+  background-position: left;
+  height: 100vh;
+  border-bottom: 2px solid #00ffff;
+  z-index: 2;
 }
